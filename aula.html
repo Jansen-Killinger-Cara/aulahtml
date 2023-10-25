@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Jansen</title>
 </head>
 
@@ -40,6 +41,18 @@
                     <a href="https://www.terra.com.br/" target="_blank">Terra Noticias
                         <!- para abrir uma nova aba adicione target="_blank" ->
                     </a>
+                    <br>
+                    <hr>
+                    <a href="Tsete.txt" target="_blank">Arquivo de Teste
+                        <!- para abrir uma nova aba adicione target="_blank" ->
+                    </a>
+                    <br>
+                    <br>    
+                    <audio src="ambient-piano-logo-165357.mp3" controls></audio>
+                <br><br>
+                <video src="20231025_085502.mp4" width="620" height="340" controls>
+        
+                </video>
     </p>
     <table border="19">
         <tr>
@@ -83,9 +96,46 @@
         </tr>
     </table>  
     <br>
+    <form action="pagina que receberá os dados" method="post">
+        <div>
+            <label for="name">Digite aqui o Nome:</label>
+            <input type="text" id="nome" />
+        </div>
+        <br>
+        <div>
+            <label for="senha">Digite aqui a senha:</label>
+            <input type="password" id="nome" />
+        </div>
+        <br>
+        <div>
+            <label for="email" >Digite aqui o e-mail:</label>
+            <input type="email" id="email" />
+        </div>
+        <br>
+        <div>
+            <label for="msg">Digite aqui uma Mensagem:</label>
+            <textarea id="msg" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <br>
+        <div class="button">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
     <br>
     <br>    
-    <br>
+    <br >
+    
+    <script>
+        function funcaoConfirma() {
+            alert("Obrigado pelo seu envio!");
+        }
+    </script>
+
+    <button type="button" class="btn btn-success" onclick="funcaoConfirma()">Enviar</button>
+
+
     <br>
     <br>    
     <br>
